@@ -1,0 +1,45 @@
+
+ /*  
+ h1{
+    color: rgb(255, 201, 100);
+    text-align: center;
+}
+.btn{
+    background-color: blue;
+    border: red solid 1px;
+    
+} */
+body{
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn{
+    background-color: red;
+    padding: 6px 12px;
+    color: white;
+    border: 2px dotted #ad0000;
+    outline: 2px solid #ff8c8c;
+    outline-offset: 4px;
+    margin: 20px;
+}
+.solid-btn{
+    background-color: red;
+    padding: 6px 12px;
+    color: white;
+    border: 2px dotted #ad0000;
+    outline: 2px solid #ff8c8c;
+    outline-offset: 4px;
+    margin: 20px;
+
+}
+.outline-btn{
+    background-color: white;
+    padding: 6px 12px;
+    color: rgb(238, 12, 12);
+    border: 2px solid red;
+    border-radius: 50px;
+
+}

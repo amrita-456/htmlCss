@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: burlywood;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .card-container{
+            background-color: #091f;
+            max-width: 800px;
+            min-height: 350px;
+            display: flex;
+            border-radius: 20px;
+            color: white;
+            overflow: hidden;
+            box-shadow: 10px 20px 40px black;
+            
+
+        }
+        .texts{
+            
+            height: 350px;
+            width: 400px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        .texts h1{
+            font-size: 64px;
+
+        }
+        .texts h2{
+            font-size: 32px;
+
+        }
+        .image-container{
+            flex: 1;
+        }
+        .image-container img{
+            height: 350px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card-container">
+            <div class="texts">
+                <h1>2024</h1>
+                <h2>happy New Year</h2>
+            </div>
+            <div class="image-container">
+                <img src="../image/h.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
